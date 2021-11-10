@@ -3,6 +3,12 @@
 
 > 第一次使用回自动下载 `qqwry.dat` 和生成配置文件，不好的网络环境会影响使用
 
+## 手动编译
+
+```
+go build -v -a -trimpath -o ./cIPR cIPR.go
+```
+
 ## 用法
 
 ```
