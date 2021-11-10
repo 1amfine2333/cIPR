@@ -68,6 +68,8 @@ func main() {
 		return lstIPR[i].count > lstIPR[j].count  // 降序
 	})
 
+	fmt.Printf("\n")
+	
 	for _, i := range lstIPR {
 		fmt.Printf("%-18s||%4d\n",i.ip, i.count)
 	}
